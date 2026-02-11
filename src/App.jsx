@@ -3,6 +3,8 @@ import Hero from './components/Hero';
 import Testimonials from './components/Testimonials';
 import BundlesGrid from './components/BundlesGrid';
 import Pricing from './components/Pricing';
+import FAQ from './components/FAQ';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -22,12 +24,10 @@ function App() {
         <Testimonials />
         <BundlesGrid />
         <Pricing />
-        
-        {/* Footer Placeholder */}
-        <footer className="py-20 px-6 text-center border-t border-white/5">
-          <p className="text-gray-600 text-sm">© 2026 God of Prompt. Pixel-perfect clone by Rupa AI.</p>
-        </footer>
+        <FAQ />
       </main>
+
+      <Footer />
     </div>
   );
 }

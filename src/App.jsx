@@ -1,5 +1,6 @@
 import React from 'react';
 import Hero from './components/Hero';
+import Testimonials from './components/Testimonials';
 
 function App() {
   return (
@@ -16,10 +17,11 @@ function App() {
 
       <main>
         <Hero />
+        <Testimonials />
         
         {/* Placeholder for next sections */}
-        <section className="py-20 px-6 max-w-7xl mx-auto text-center border-t border-white/5">
-          <p className="text-gray-500 uppercase tracking-widest text-xs font-bold mb-10">More sections arriving shortly...</p>
+        <section className="py-20 px-6 max-w-7xl mx-auto text-center">
+          <p className="text-gray-500 uppercase tracking-widest text-xs font-bold mb-10 italic">Bundles & Features arriving shortly...</p>
         </section>
       </main>
     </div>

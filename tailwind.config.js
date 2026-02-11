@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -7,22 +7,18 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        dark: {
-          DEFAULT: '#0a0a0a',
-          lighter: '#1a1a1a',
-          card: '#121212',
-        },
-        primary: {
-          DEFAULT: '#ffffff',
-          dim: '#a1a1aa',
-        },
-        accent: {
-          DEFAULT: '#3b82f6', // Standard blue for some highlights, GoP uses a lot of white/black with subtle glows
+        brand: {
+          gold: '#FFD700',
+          dark: '#0A0A0A',
+          card: '#141414',
         }
       },
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
       },
+      backgroundImage: {
+        'premium-gradient': 'radial-gradient(circle at top, #1a1a1a 0%, #0a0a0a 100%)',
+      }
     },
   },
   plugins: [],

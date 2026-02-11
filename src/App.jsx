@@ -2,6 +2,7 @@ import React from 'react';
 import Hero from './components/Hero';
 import Testimonials from './components/Testimonials';
 import BundlesGrid from './components/BundlesGrid';
+import Pricing from './components/Pricing';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Hero />
         <Testimonials />
         <BundlesGrid />
+        <Pricing />
         
         {/* Footer Placeholder */}
         <footer className="py-20 px-6 text-center border-t border-white/5">

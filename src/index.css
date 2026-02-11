@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-dark text-white font-sans antialiased;
+  }
+}
+
+.gradient-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400;
+}
+
+.card-hover {
+  @apply transition-all duration-300 hover:border-white/20 hover:bg-white/[0.02];
+}
+
+.glass-morphism {
+  @apply bg-white/[0.01] backdrop-blur-sm border border-white/10;
+}
